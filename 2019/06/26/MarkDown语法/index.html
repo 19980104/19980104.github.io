@@ -16,7 +16,7 @@
 <meta property="og:description" content="字体类型 符号 示例    强调文本 * *或_ _ 强调文本   加粗文本 ** **或__ __ 加粗文本   标记文本 == == ==标记文本==   删除文本 ~ ~ 删除文本   下标 ~ ~ H2O   上标 ^ ^ 10^2^    最后引用文本使用”&amp;gt;”符号   1234空格符：&amp;amp;ensp; 和 &amp;amp;emsp; &amp;amp;ensp; 单格空格符&amp;amp;">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://avatar.csdn.net/7/7/B/1_ralf_hx163com.jpg">
-<meta property="og:updated_time" content="2019-06-26T03:31:10.468Z">
+<meta property="og:updated_time" content="2019-06-26T03:37:32.390Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MarkDown语法">
 <meta name="twitter:description" content="字体类型 符号 示例    强调文本 * *或_ _ 强调文本   加粗文本 ** **或__ __ 加粗文本   标记文本 == == ==标记文本==   删除文本 ~ ~ 删除文本   下标 ~ ~ H2O   上标 ^ ^ 10^2^    最后引用文本使用”&amp;gt;”符号   1234空格符：&amp;amp;ensp; 和 &amp;amp;emsp; &amp;amp;ensp; 单格空格符&amp;amp;">
@@ -242,40 +242,6 @@
 
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">    	System.out.println(<span class="string">"hello world!"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<hr>
-<p>LaTeX数学表达式，LaTeX数学表达式有两种形式<br>形式一：两个美元符之间存放行内公式<br>形式二：两对美元符之间存放行间公式<br>行内公式举例：<br>$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$<br>行间公式举例：<br>$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$</p>
-<hr>
-<p>MarkDown表格写法：<br>|第一列|第二列|第三列|<br>………………………………<br>|内容一|内容二|内容三|<br>                .<br>                .<br>                .<br>上面的内容只需在第二行间添加|-|-|-|即可形成一张表格，其中|-|-|-|的设置将会影响表格内容的排版，比如：</p>
-<ol>
-<li>&nbsp;-&nbsp;表示默认排版，内容居中</li>
-<li>:-:表示居中排版，内容居中</li>
-<li>:-&nbsp;表示左对齐排版，内容左对齐</li>
-<li>&nbsp;-:表示右对齐排版，内容右对齐</li>
-</ol>
-<p>表格代码：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|字母（区分大小写）|ACSII码值|</span><br><span class="line">|-|-|</span><br><span class="line">|a|<span class="number">97</span>|</span><br><span class="line">|A|<span class="number">65</span>|</span><br></pre></td></tr></table></figure>
-
-<p>表格效果：<br>|字母（区分大小写）|ACSII码值|<br>|-|-|<br>|a|97|<br>|A|65|</p>
-<hr>
-<p>MarkDown自定义列表：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Students</span><br><span class="line">: Alice</span><br><span class="line">: Bob</span><br><span class="line">: Cindy</span><br></pre></td></tr></table></figure>
-
-<p>上面内容的自定义列表形式如下：</p>
-<dl><dt>Studengs<br>: Alice<br>: Bob</dt><dd>Cindy</dd></dl><hr>
-<p>MarkDown序列图：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">点点点mermaid</span><br><span class="line">sequenceDiagram</span><br><span class="line">Alice-&gt;&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;&gt;Alice: I am good thanks!</span><br><span class="line">点点点</span><br></pre></td></tr></table></figure>
-
-<p>效果图：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">Alice-&gt;&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>MarkDown流程图：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">点点点mermaid</span><br><span class="line">flowchat</span><br><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Opetation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">点点点</span><br></pre></td></tr></table></figure>
-
-<p>效果图：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">flowchat</span><br><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end: End</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-
-<hr>
 
       
 
